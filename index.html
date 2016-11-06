@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>张杰“我想”世界巡回演唱会</title>
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/body.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+    <div>  	
+        <audio id="music" src="Jason.mp3" controls="controls" hidden="true">
+    </div>
+        <div class="container">
+					<header>
+				<h1>张杰“我想”世界巡回演唱会
+				<img src="images/5.jpg"  id="pic" style="width: 50px;height: 50px"></h1>
+				<p class="present">
+					<a class="current">照片展示</a>
+					
+				</p>
+			</header>
+			<section class="option">
+				
+				<input id="select1" name="radio1" type="radio" class="selector1" checked/>
+				<label for="select1" class="label1">1</label>
+				
+				<input id="select2" name="radio1" type="radio" class="selector2" />
+				<label for="select2" class="label2">2</label>
+				
+				<input id="select3" name="radio1" type="radio" class="selector3" />
+				<label for="select3" class="label3">3</label>
+				
+				<input id="select4" name="radio1" type="radio" class="selector4" />
+				<label for="select4" class="label4">4</label>
+				
+				<div class="clr"></div>	
+				<div class="bg">
+					<div>
+						<span>Slice 1 - Image 1</span>
+						<span>Slice 1 - Image 2</span>
+						<span>Slice 1 - Image 3</span>
+						<span>Slice 1 - Image 4</span>
+					</div>
+					<div>
+						<span>Slice 2 - Image 1</span>
+						<span>Slice 2 - Image 2</span>
+						<span>Slice 2 - Image 3</span>
+						<span>Slice 2 - Image 4</span>
+					</div>
+					<div>
+						<span>Slice 3 - Image 1</span>
+						<span>Slice 3 - Image 2</span>
+						<span>Slice 3 - Image 3</span>
+						<span>Slice 3 - Image 4</span>
+					</div>
+					<div>
+						<span>Slice 4 - Image 1</span>
+						<span>Slice 4 - Image 2</span>
+						<span>Slice 4 - Image 3</span>
+						<span>Slice 4 - Image 4</span>
+					</div>
+				</div>
+				<div class="titles">
+					<h3><span>北京站</span><span>7·16北京工人体育场</span></h3>
+					<h3><span>南京站</span><span>7·30南京奥体中心体育馆</span></h3>
+					<h3><span>广州站</span><span>8·20广州体育演艺中心</span></h3>
+					<h3><span>上海站</span><span>10·22上海梅赛德斯奔驰中心</span></h3>
+				</div>
+			</section>
+			<footer >接下来的六场等你来！<br>
+			11.12西安站·西安城市运动公园<br>
+			11·19武汉站·武汉体育中心<br>
+			11·26深圳站·华润深圳湾体育中心“春茧”体育馆<br>
+			12·10合肥站·合肥滨湖国际会展中心主展馆<br>
+			12·17大连站·大麦体育文化中心<br>
+			12·24昆明站·昆明滇池国际会展中心12号馆</footer>
+        </div>
+        <script type="text/javascript">
+      
+        		var myPic=document.getElementById("pic");
+        		var myMusic=document.getElementById("music");
+        		myPic.onclick=function()
+        		{
+        			if(myMusic.paused)
+        				myMusic.play();
+        			else myMusic.pause();
+        		}
+ 
+        </script>
+    </body>
+</html>
